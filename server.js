@@ -25,7 +25,7 @@ const server = http.createServer((req, res) =>{
 
 
 const PORT = 3000;                                                                          // Specify the port for the server to listen on
-// Start the server and listen on the specified port
+
 server.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+    console.log(`Server is running on port ${PORT}`);                                     // Log a message to the console indicating that the server is running             
 });
